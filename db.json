@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "example",
+      "password": "example@1",
+      "email": "example@gmail.com",
+      "gender": "female",
+      "age": 25,
+      "phone_number": "2546185469"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "user@1",
+      "email": "user@gmail.com",
+      "gender": "male",
+      "age": 30,
+      "phone_number": "9648571254"
+    },
+    {
+      "id": "b859",
+      "email": "user@gmail.com",
+      "password": "khgt4672@"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "bookname": "Harry Potter",
+      "author": "Pawan",
+      "price": 120,
+      "rating": 4.5,
+      "description": "Harry Potter has 7 series which is about magic.",
+      "image": "https://images.unsplash.com/photo-1667018355910-7fe90ad086ca?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": "2",
+      "bookname": "After We Collide",
+      "author": "Pawan",
+      "price": 120,
+      "rating": 4.5,
+      "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "image": "https://images.unsplash.com/photo-1667018355910-7fe90ad086ca?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": "3",
+      "bookname": "The Alchemist",
+      "author": "Paulo Coelho",
+      "price": 150,
+      "rating": 4.8,
+      "description": "A journey about following your dreams and listening to your heart.",
+      "image": "https://images.unsplash.com/photo-1544717302-de2939b7ef71?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3"
+    },
+    {
+      "id": "4",
+      "bookname": "Atomic Habits",
+      "author": "James Clear",
+      "price": 200,
+      "rating": 4.7,
+      "description": "An easy & proven way to build good habits and break bad ones.",
+      "image": "https://images.unsplash.com/photo-1544717302-de2939b7ef71?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3"
+    }
+  ]
+}
