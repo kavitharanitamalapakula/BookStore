@@ -1,17 +1,24 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { postUsersData } from '../Services/Data';
+import { Link, Navigate, useNavigate } from 'react-router-dom';
+import { LoginUserData } from '../Services/Data';
 
 const Login = () => {
   const [userData, setUserData] = useState({ email: "", password: "" })
+  const navigate = useNavigate()
   const handleChange = (e) => {
     setUserData({ ...userData, [e.target.name]: e.target.value })
   }
   const handleSubmit = async (e) => {
     e.preventDefault();
-    postUsersData(userData).then((data) => {
-      console.log(data)
+    const payload = {
+      email : userData.email,
+      password : userData.password
+    }
+      LoginUserData(payload).then(data => {
+      localStorage.setItem("loggedIn", JSON.stringify(data[0]))
+      navigate("/home")
     })
+   
   };
 
   return (
